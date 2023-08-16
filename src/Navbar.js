@@ -16,7 +16,7 @@ const Navbar = () => {
       <h1 className="h1">Telehealth</h1>
      
       <ul  className= { mobile ? "nav-lin active" : 'nav-lin'} onClick={() => setmobile(false )}>
-      <Link className='li' to = '/'  onClick={() => setmobile(false )}>
+      <Link className='li' to = '/Healthy'  onClick={() => setmobile(false )}>
                 <li>Home</li>
          </Link>
       <Link className='li' to = '/about'  onClick={() => setmobile(false )}>
